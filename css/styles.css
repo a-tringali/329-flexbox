@@ -3,20 +3,60 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    border-radius: 10px;
     background: gray;
+    gap: 5px;
+    padding: 5px;
 }
 
 .item {
     flex-grow: 1;
-    background-color: lightgray;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 20px;
+    flex-basis: 25%;
+    background-color: #BEBEBE;
+    border-radius: 5px;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item:nth-child(odd){
+    margin-right: 0;
+ }
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-card {
+    background-color: #BEBEBE;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    text-align: center;
+}
+
+main {
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 body {
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #F5F5F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
